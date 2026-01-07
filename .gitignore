@@ -1,0 +1,12 @@
+# Ignore private keys
+id_rsa
+id_rsa.pub
+*.pem
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Ignore environment files
+*.env
